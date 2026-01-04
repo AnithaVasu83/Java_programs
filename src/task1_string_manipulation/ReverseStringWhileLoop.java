@@ -1,5 +1,7 @@
 package task1_string_manipulation;
 
+import java.util.Arrays;
+
 public class ReverseStringWhileLoop {
 
     public static void main(String[] args) {
@@ -17,6 +19,7 @@ public class ReverseStringWhileLoop {
         }
 
         String reversed=new String(arr);
+        //dont use Arrays.toString[arr]) is only for print the array like[d, l, r, o, W ,o, l, l, e, H]
         System.out.println("Reversed String: "+reversed);
 
     }
