@@ -18,7 +18,7 @@ public class FirstNonRepeatingMap {
         for(Map.Entry<Character,Integer> entry:map.entrySet()){
             if(entry.getValue()==1)
             {
-                System.out.println("First non repeating character: "+ entry.getKey());
+                System.out.println("second non repeating character: "+ entry.getKey());
                 found=true;
                 break;
             }

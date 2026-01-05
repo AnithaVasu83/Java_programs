@@ -17,6 +17,8 @@ public class CountCharacterFrequency {
 
             }
             System.out.println(c +" : " + count);
+            //if we want to print only numbers in the place of character
+            //System.out.print(count);
         }
 
     }
